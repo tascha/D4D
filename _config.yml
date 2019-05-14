@@ -1,8 +1,8 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: "Development and Access to Information"
-description: "Access to information (A2I) is not an end in itself, but rather a driver of progress across the board. It empowers people and communities, laying the foundations for equality, sustainability, and prosperity. It provides a clear illustration of the rights-based, holistic approach to development taken in the 2030 Agenda."
+title: "Data for Decision-Making"
+description: 
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "/" #important: start with /
 
