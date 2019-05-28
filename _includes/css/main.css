@@ -408,9 +408,9 @@ a:focus {
 
 /* Footer */
 #footerwrap {
-	padding-top: 30px;
-	padding-bottom: 30px;
-	background: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #88898c;
 }
 
 #footerwrap p {
