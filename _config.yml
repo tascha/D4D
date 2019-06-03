@@ -7,7 +7,7 @@ analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "/" #important: start with /
 
 # Google Analytics
-google_analytics: UA-125335750-1
+google_analytics: UA-141387080-1
 
 
 # Build settings
