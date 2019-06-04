@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Whitney Book", Goudy, Calibri, sans-serif;
   font-size: 16px;
   background: white;
 }
@@ -561,7 +561,7 @@ figure img {
 }
 
 .next-up .arrow {
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Whitney Book", Goudy, Calibri, sans-serif;
   font-weight: bold;
   padding: 0 5px;
   position: relative;
@@ -580,7 +580,7 @@ figure img {
 
 .skills-list h5:after {
   content: "\2192";
-  font-family: "Helvetica Neue";
+  font-family: "Whitney Book", Goudy, Calibri, sans-serif";
   font-weight: bold;
   padding-left: 4px;
   margin-right: 1px;
