@@ -719,6 +719,8 @@ ul.fancy {
 
 .activity-menu li:last-child {
   border-bottom: none;
+  padding-top: 15px;
+  list-style-type: none;
 }
 
 .activity-menu li> a {
