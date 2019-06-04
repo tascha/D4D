@@ -201,7 +201,7 @@ article.main *:not(.activity-menu) {
 /* Left column Navigation */
 
 aside {
-  background: #E6E7E8;
+  background: #EDEDEE;
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: 300px;
