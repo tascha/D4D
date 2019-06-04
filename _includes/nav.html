@@ -17,6 +17,20 @@
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
         
         <li {% if page.title == "Curriculum" %}class="active"{% endif %}><a href="{{"/curriculum/" | prepend: site.baseurl }}">CURRICULUM</a></li>
+        <ul class="menu">
+							<li {% if current[1] == 'viz1.html' %}class="current"{% endif %}>View Online</li>
+							<li {% if current[1] == 'viz2.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/viz2.html">Download</a></li>
+							<!--<li>
+								<a href="">Submenu</a>
+								<ul>
+									<li><a href="#">Lorem dolor</a></li>
+									<li><a href="#">Phasellus magna</a></li>
+									<li><a href="#">Magna phasellus</a></li>
+									<li><a href="#">Etiam nisl</a></li>
+									<li><a href="#">Veroeros feugiat</a></li>
+								</ul>
+							</li> -->
+</ul>
         
         <li {% if page.title == "About" %}class="active"{% endif %}><a href="{{"/about/" | prepend: site.baseurl }}">ABOUT</a></li>
         
