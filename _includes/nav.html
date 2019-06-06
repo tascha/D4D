@@ -22,9 +22,9 @@
         
         <!-- <li {% if page.title == "Downloads" %}class="active"{% endif %}><a href="{{"/downloads/" | prepend: site.baseurl }}">DOWNLOADS</a></li> -->
         
-        <li>
+        <li  {% if page.title == "Curriculum" %}class="active"{% endif %}><a href="{{"/curriculum/" | prepend: site.baseurl }}">
          <div class="dropdown">
-            <button class="btn btn-link dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="color:black;font-weight:700;font-size:12px;padding-top: 15px;padding-bottom: 15px;font-family: “Whitney Book”, Goudy, Calibri, sans-serif">TUTORIALS
+            <button class="btn btn-link dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="color:black;font-weight:700;font-size:12px;padding-top: 15px;padding-bottom: 15px;font-family: “Whitney Book”, Goudy, Calibri, sans-serif">CURRICULUM</a>
             <span class="caret"></span></button>
             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
               <li role="presentation"><a role="menuitem" href="#">HTML</a></li>
