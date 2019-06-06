@@ -146,7 +146,7 @@ a:focus {
 	border-color: transparent;
 }
 
-/* added 6/5 for dropdown menu */
+
 .dropdown-menu {
 	background: black;
 }
@@ -156,6 +156,8 @@ a:focus {
 	font-weight: 700;
 	font-size: 12px;
 }
+
+/* added 6/5 for dropdown menu */
 
 /* The dropdown container */
 .dropdown {
