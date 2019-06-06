@@ -16,8 +16,8 @@
       <ul class="nav navbar-nav">
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
         
-        <div class="dropdown-menu">
-        <li {% if page.title == "Curriculum" %}class="active"{% endif %}><a href="{{"/curriculum/" | prepend: site.baseurl }}">CURRICULUM</a></li>
+        
+        <li {% if page.title == "Curriculum" %}class="active"{% endif %}><a href="{{"/curriculum/" | prepend: site.baseurl }} class="dropdown-menu">CURRICULUM</a></li>
          
     <!-- <button class="dropbtn">Dropdown
       <i class="fa fa-caret-down"></i>
@@ -28,7 +28,6 @@
           <a href="#">Link 2</a>
           <a href="#">Link 3</a>
         </div>
-      </div>
         
         
         
