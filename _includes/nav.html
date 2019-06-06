@@ -17,19 +17,7 @@
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
         
         
-        <li {% if page.title == "Curriculum" %}class="active"{% endif %}class="dropdown-menu"><a href="{{"/curriculum/" | prepend: site.baseurl }}>CURRICULUM</a></li>
-         
-    <!-- <button class="dropbtn">Dropdown
-      <i class="fa fa-caret-down"></i>
-    </button> -->
-          
-        <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-        
-        
+        <li {% if page.title == "Curriculum" %}class="active"{% endif %}><a href="{{"/curriculum/" | prepend: site.baseurl }}>CURRICULUM</a></li>
         
         <li {% if page.title == "About" %}class="active"{% endif %}><a href="{{"/about/" | prepend: site.baseurl }}">ABOUT</a></li>
         
