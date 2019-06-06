@@ -148,13 +148,17 @@ a:focus {
 
 
 .dropdown-menu {
-	background: black;
+	background: #EDEDEE;
 }
 
 .dropdown-menu > li > a {
-	color: white;
+	color: black;
 	font-weight: 700;
 	font-size: 12px;
+}
+
+.dropdown-menu > li > a:hover {
+	color: #5c97bf;
 }
 
 .btn-theme {
